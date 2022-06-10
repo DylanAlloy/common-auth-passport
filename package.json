@@ -1,0 +1,31 @@
+{
+    "name": "common-auth-ldap",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "author": "Dylan Moore",
+    "license": "ISC",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "axios": "^0.21.1",
+      "bluebird": "^3.7.2",
+      "cookie-parser": "^1.4.3",
+      "express": "^4.16.0",
+      "moment": "^2.19.1",
+      "mongoose": "^4.13.19",
+      "nodemailer": "^6.4.2",
+      "path": "^0.12.7",
+      "express-session": "^1.15.6",
+      "passport": "^0.4.0",
+      "passport-http": "^0.3.0",
+      "passport-local": "^1.0.0"
+    }
+  }
+  

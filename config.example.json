@@ -1,0 +1,28 @@
+{
+    "auth": {
+        "type": "Passport Local"
+        , "module": "passport"
+        , "params": {
+            "sessionSecret": "some-secret-goes-here"
+        }
+    }
+    , "email": {
+        "active": false,
+        "params": {
+            "host": "",
+            "port": 1111,
+            "secure": false,
+            "auth": {
+                "user": "",
+                "pass": ""
+            }
+        },
+        "forgottenPasswordMessage": ""
+        , "registrationMessage": ""
+        , "from":"your-email-address-here"
+    }
+    , "db": {
+        "url": "mongodb://common-db/local"
+    }
+    , "servicePort": "3001"
+}
