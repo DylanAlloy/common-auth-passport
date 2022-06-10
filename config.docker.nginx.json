@@ -1,0 +1,29 @@
+{
+    "auth": {
+        "type": "Passport Local"
+        , "module": "passport"
+        , "params": {
+            "sessionSecret": "some-secret-goes-here"
+        },
+        "adminGroups": []
+    }
+    , "email": {
+        "active": false,
+        "params": {
+            "host": "",
+            "port": 1111,
+            "secure": false,
+            "auth": {
+                "user": "",
+                "pass": ""
+            }
+        },
+        "forgottenPasswordMessage": ""
+        , "registrationMessage": ""
+        , "from":"your-email-address-here"
+    }
+    , "db": {
+        "url": "mongodb://host.docker.internal:27017/local"
+    }
+    , "servicePort": "3001"
+}

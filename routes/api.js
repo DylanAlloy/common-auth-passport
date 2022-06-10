@@ -42,7 +42,7 @@ passport.deserializeUser(function (id, done) {
 router.post('/',
     passport.authenticate('local', { failureRedirect: '/', failureFlash: false }),
     function (req, res) {
-        res.send('success');
+        res.json({"success":true, "email": req.body.email, "groups":[],isAdmin:false});
     });
 
 // Register User
